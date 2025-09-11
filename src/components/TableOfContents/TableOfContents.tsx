@@ -3,6 +3,7 @@
 import useHeadingsData from '@/hooks/useHeadingsData'
 import useIsLargeScreen from '@/hooks/useIsLargeScreen'
 import { ChevronRightIcon } from '@/utils/icons'
+import Link from 'next/link'
 import { useEffect, useState } from 'react'
 
 const TableOfContents = () => {
@@ -31,18 +32,18 @@ const TableOfContents = () => {
           className="mt-4 list-outside list-[square] space-y-3 ps-6 lg:ps-4">
           {headings.map(({ id, title, items }) => (
             <li key={id}>
-              <a href={`#${id}`} className="hover:text-neutral transition-colors duration-200">
+              <Link href={`#${id}`} className="hover:text-neutral transition-colors duration-200">
                 {title}
-              </a>
+              </Link>
               {items.length > 0 && (
                 <ul className="list-outside list-[circle] space-y-3 ps-4 pt-3">
                   {items.map((child) => (
                     <li key={child.id}>
-                      <a
+                      <Link
                         href={`#${child.id}`}
                         className="hover:text-neutral transition-colors duration-200">
                         {child.title}
-                      </a>
+                      </Link>
                     </li>
                   ))}
                 </ul>

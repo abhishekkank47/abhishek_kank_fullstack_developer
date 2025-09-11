@@ -4,6 +4,7 @@ import useRotatingAnimation from '@/hooks/useRotatingAnimation'
 import Image from 'next/image'
 import { HeroImage } from '../../utils/images'
 import Ellipse from './Ellipse'
+import Link from 'next/link'
 
 const Hero = () => {
   const ellipseRef = useRotatingAnimation()
@@ -30,18 +31,18 @@ const role = useRoleSwitcher({
           </h2>
 
           <div className="mt-6 flex flex-wrap gap-6">
-            <a
+            <Link
               href="/#contact"
               aria-label="Connect with me"
               className="bg-accent min-w-32 cursor-pointer rounded-lg px-[14px] py-[10px] text-center text-sm font-medium text-[#00071E]">
               Contact Me
-            </a>
-            <a
+            </Link>
+            <Link
               href="https://www.linkedin.com/in/abhishek-kank-ak47/"
               aria-label="View LinkedIn Profile"
               className="text-neutral bg-secondary cursor-pointer rounded-lg px-[14px] py-[10px] text-sm">
               LinkedIn
-            </a>
+            </Link>
           </div>
         </div>
 

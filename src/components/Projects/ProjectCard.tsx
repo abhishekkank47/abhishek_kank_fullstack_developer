@@ -1,6 +1,7 @@
 import { Project } from '@/lib/types'
 import Image from 'next/image'
 import { Earning, GithubIcon, Likes, PreviewIcon, Star, Timer } from '../../utils/icons'
+import Link from 'next/link';
 
 const IconText: React.FC<{ icon: string; text: string }> = ({ icon, text }) => (
   <li className="flex gap-2">
@@ -70,22 +71,22 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ data }) => {
         </div>
         <div className="flex gap-5">
           {livePreview && (
-            <a
+            <Link
               href={livePreview}
               className="text-accent flex gap-2 text-sm underline underline-offset-[3px] transition-all duration-75 ease-linear hover:scale-105 md:text-base"
               target="_blank">
               <PreviewIcon className="h-auto w-[18px] md:w-5" />
               <span>Live Preview</span>
-            </a>
+            </Link>
           )}
           {githubLink && (
-            <a
+            <Link
               href={githubLink}
               className="text-accent flex gap-2 text-sm underline underline-offset-[3px] transition-all duration-75 ease-linear hover:scale-105 md:text-base"
               target="_blank">
               <GithubIcon className="w-[18px] md:w-5" />
               <span>Github Link</span>
-            </a>
+            </Link>
           )}
         </div>
       </div>

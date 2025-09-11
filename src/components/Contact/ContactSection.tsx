@@ -1,5 +1,6 @@
 import { MsgIcon, PhoneIcon } from '@/utils/icons'
 import ContactForm from './ContactForm'
+import Link from 'next/link'
 
 const ContactSection = () => {
   return (
@@ -17,16 +18,16 @@ const ContactSection = () => {
 
         <div className="space-y-2">
           <p className="text-neutral text-lg font-bold">Contact Information</p>
-          <a
+          <Link
             href="mailto:abhishekkank5@gmail.com"
             className="text-neutral hover:text-accent flex items-center gap-1 font-light transition-colors duration-300">
             <MsgIcon /> abhishekkank5@gmail.com
-          </a>
-          <a
+          </Link>
+          <Link
             href="tel:+91 7387517150"
             className="text-neutral hover:text-accent flex items-center gap-1 font-light transition-colors duration-300">
             <PhoneIcon /> +91 7387517150
-          </a>
+          </Link>
         </div>
       </div>
 

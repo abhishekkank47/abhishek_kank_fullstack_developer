@@ -1,6 +1,7 @@
 import { footerLinks, languages } from '@/appData'
 import { socials } from '@/appData/personal'
 import Logo from '../Navbar/Logo'
+import Link from 'next/link'
 
 const Footer = () => {
   return (
@@ -15,21 +16,21 @@ const Footer = () => {
             The first free end-to-end analytics service for the site, designed to work with
             enterprises of various levels and business segments.
           </p>
-          <a
+          <Link
             href="#"
             className="text-neutral mt-4 inline-flex items-center gap-2 text-xs hover:underline">
             More about me <span className="bg-neutral inline-block size-[10px] rounded-full" />
-          </a>
+          </Link>
         </div>
 
         <div className="flex flex-wrap gap-8">
           {footerLinks.map((link) => (
-            <a
+            <Link
               href={link.href}
               key={link.href}
               className="text-tertiary-content hover:text-neutral transition-colors duration-300 hover:underline">
               {link.title}.
-            </a>
+            </Link>
           ))}
         </div>
       </div>
@@ -39,11 +40,11 @@ const Footer = () => {
           <ul className="flex flex-col gap-4">
             {socials.map((item, index) => (
               <li key={index} className="cursor-pointer bg-transparent">
-                <a
+                <Link
                   href={item.href}
                   className="text-neutral transition-color hover:text-neutral/50 h-full w-full duration-300">
                   {item.icon}
-                </a>
+                </Link>
               </li>
             ))}
           </ul>
@@ -58,16 +59,16 @@ const Footer = () => {
           <div className="space-y-10 md:self-end">
             <div className="flex flex-col">
               <h5 className="text-neutral mb-4 text-lg font-medium">Contact Us</h5>
-              <a
+              <Link
                 href="mailto:abhishekkank5@gmail.com"
                 className="text-tertiary-content hover:text-neutral text-sm font-light transition-colors duration-300">
                 abhishekkank5@gmail.com
-              </a>
-              <a
+              </Link>
+              <Link
                 href="tel:+92 3123456789"
                 className="text-tertiary-content hover:text-neutral text-sm font-light transition-colors duration-300">
                 +91 7387517150
-              </a>
+              </Link>
             </div>
             <div>
               <div>
