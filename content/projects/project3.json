@@ -1,0 +1,9 @@
+  {
+    "priority": 3,
+    "title": "eZpedal Admin Dashboard – Backend Development",
+    "shortDescription": "Built the admin panel backend from scratch using Node.js, TypeScript, MongoDB, Redis, and AWS S3. Enabled ride monitoring, data management, and operational controls. Delivered scalable APIs integrated with the internal React-based admin panel.",
+    "cover": "https://res.cloudinary.com/dqt8po5ie/image/upload/v1757574885/Portfolio/ezpedal_landingPage_cenkgv.jpg",
+    "livePreview": "https://example.com/Ejucationzz", 
+    "type": "Company Work (eZpedal Rideshare)",
+    "siteAge": "Currently live"
+  }

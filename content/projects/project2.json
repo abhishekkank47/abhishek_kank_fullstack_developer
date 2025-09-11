@@ -1,0 +1,9 @@
+  {
+    "priority": 2,
+    "title": "eZpedal Website – Backend Development",
+    "shortDescription": "Migrated the company website backend from Backendless to a custom Node.js + TypeScript + MongoDB stack with AWS S3 integration. Designed APIs for form submissions and image uploads, enabling smoother operations",
+    "cover": "https://res.cloudinary.com/dqt8po5ie/image/upload/v1757574885/Portfolio/ezpedal_landingPage_cenkgv.jpg",
+    "livePreview": "https://ezpedal.in",
+    "type": "Company Work (eZpedal Rideshare)",
+    "siteAge": "Currently live"
+  }
