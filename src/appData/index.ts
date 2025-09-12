@@ -117,11 +117,11 @@ export const serviceData = [
     title: 'Frontend Development',
     shortDescription: 'Creating responsive UIs with React.js, Next.js, and Tailwind CSS.',
   },
-  {
-    icon: JavaScriptIcon,
-    title: 'JavaScript Engineering',
-    shortDescription: 'Delivering interactive experiences with modern JavaScript best practices.',
-  },
+  // {
+  //   icon: JavaScriptIcon,
+  //   title: 'JavaScript Engineering',
+  //   shortDescription: 'Delivering interactive experiences with modern JavaScript best practices.',
+  // },
 ];
 
 
