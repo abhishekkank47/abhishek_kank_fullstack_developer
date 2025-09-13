@@ -17,21 +17,21 @@ const ContactForm = () => {
 
   return (
     <form action={formAction}>
-      <Input label="Full name" id="name" name="name" placeholder="Your name here" required />
+      <Input label="Full name" id="name" name="name" placeholder="" required />
       <Input
         label="Email address"
         id="email"
         type="email"
         name="email"
-        placeholder="Your email address here"
+        placeholder=""
         required
       />
-      <Input label="Subject" id="subject" name="subject" placeholder="Your subject here" />
+      <Input label="Subject" id="subject" name="subject" placeholder="" />
       <Textarea
         label="Message"
         id="message"
         name="message"
-        placeholder="Your message here"
+        placeholder=""
         rows={7}
         required
       />
