@@ -5,8 +5,8 @@ import Link from 'next/link';
 
 const IconText: React.FC<{ icon: string; text: string }> = ({ icon, text }) => (
   <li className="flex gap-2">
-    <Image src={icon} alt={text} className="size-[18px] md:size-5" />
-    <span className="text-neutral text-sm">{text}</span>
+    <Image src={icon} alt={text} className="size-[15px] md:size-5" />
+    <span className="text-neutral text-xs">{text}</span>
   </li>
 )
 
@@ -35,10 +35,10 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ data }) => {
       <div className="flex items-start justify-between gap-2">
         <div className="flex-1">
           <div className="flex flex-col flex-wrap gap-3 sm:flex-row sm:items-center">
-            <h3 className="text-secondary-content text-lg font-medium md:font-semibold">{title}</h3>
+            <h3 className="text-secondary-content text-sm font-medium md:font-semibold">{title}</h3>
             {type && (
               <span
-                className={`h-7 w-fit rounded-md bg-[#FFFFFF1A] p-1 text-sm ${type === 'New 🔥' ? 'animate-blink text-tag' : 'text-accent'} backdrop-blur-[80px]`}>
+                className={`h-7 w-fit rounded-md bg-[#FFFFFF1A] p-1 text-xs ${type === 'New 🔥' ? 'animate-blink text-tag' : 'text-accent'} backdrop-blur-[80px]`}>
                 {type}
               </span>
             )}
@@ -57,10 +57,10 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ data }) => {
         <figure className="flex justify-end overflow-hidden">
           <Image
             src={cover}
-            width={150}
-            height={80}
+            width={170}
+            height={90}
             alt="Project Cover"
-            className="h-[80px] w-[150px] rounded-md object-cover shadow-[0px_1.66px_3.74px_-1.25px_#18274B1F]"
+            className="h-[90px] w-[170px] rounded-md object-cover shadow-[0px_1.66px_3.74px_-1.25px_#18274B1F]"
           />
         </figure>
       </div>
@@ -73,7 +73,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ data }) => {
           {livePreview && (
             <Link
               href={livePreview}
-              className="text-accent flex gap-2 text-sm underline underline-offset-[3px] transition-all duration-75 ease-linear hover:scale-105 md:text-base"
+              className="text-accent flex gap-2 text-sm transition-all duration-75 ease-linear hover:scale-105 hover:underline underline-offset-4 md:text-base"
               target="_blank">
               <PreviewIcon className="h-auto w-[18px] md:w-5" />
               <span>Live Preview</span>
