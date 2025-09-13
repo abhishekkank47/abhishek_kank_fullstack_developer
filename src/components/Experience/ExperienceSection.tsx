@@ -23,7 +23,7 @@ export default function ExperienceSection() {
             <div className="bg-secondary p-4 rounded-2xl shadow-sm">
               <h3 className="text-xl font-semibold text-secondary-content">{exp.role}</h3>
               <p className="text-sm text-primary-content">{exp.company} • {exp.duration}</p>
-              <ul className="list-disc list-inside mt-2 p-4 rounded-2xl space-y-1 bg-primary text-tertiary-content ">
+              <ul className="list-disc list-inside mt-2 p-4 rounded-2xl space-y-1 bg-primary text-tertiary-content text-xs">
                 {exp.description.map((point, i) => (
                   <li key={i}>{point}</li>
                 ))}

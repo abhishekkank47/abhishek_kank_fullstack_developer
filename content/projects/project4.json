@@ -4,7 +4,7 @@
   "shortDescription": "A production-grade ticketing platform built during a Udemy course. Features include authentication, event creation, payments, and order management. Deployed using Docker and Kubernetes with a microservice architecture.",
   "cover": "https://res.cloudinary.com/dqt8po5ie/image/upload/v1757584378/Portfolio/tickets_projet_cover_zmiyif.jpg",
   "livePreview": "#",
-  "type": "Learning Project",
+  "type": "Enterprise Level",
   "siteAge": "Currently In Progress"
 }
 

@@ -5,7 +5,7 @@
   "title": "eZpedal App – Backend Development",
   "shortDescription": "Contributing to the EzPedal product-based startup by building and maintaining the backend of the user application. Working with Node.js, TypeScript, Prisma, and PostgreSQL to deliver scalable APIs and data handling.",
   "cover": "https://res.cloudinary.com/dqt8po5ie/image/upload/v1757591253/Portfolio/ezpedal_App_cover_ulzlt3.png",
-  "livePreview": "https://ezpedal.in/pricing",
+  "livePreview": "https://play.google.com/store/apps/details?id=com.ezpedal.user&pcampaignid=web_share",
   "type": "Company Work",
   "siteAge": "live / maintenance"
 }

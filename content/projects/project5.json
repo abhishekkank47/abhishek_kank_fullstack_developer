@@ -4,7 +4,7 @@
   "shortDescription": "Full-stack MERN application built during internship at CodeClause. Features include secure authentication, role-based authorization, admin panel for product/category management, and cart functionality using React Context API.",
   "cover": "https://res.cloudinary.com/dqt8po5ie/image/upload/v1757584740/Portfolio/pets_selling_ecommerce_amd6x7.jpg",
   "livePreview": "https://pet-selling-ecommerce-platform.vercel.app/",
-  "type": "Internship Project",
+  "type": "Internship",
   "siteAge": "live"
 }
 

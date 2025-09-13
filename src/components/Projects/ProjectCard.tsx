@@ -5,8 +5,8 @@ import Link from 'next/link';
 
 const IconText: React.FC<{ icon: string; text: string }> = ({ icon, text }) => (
   <li className="flex gap-2">
-    <Image src={icon} alt={text} className="size-[15px] md:size-5" />
-    <span className="text-neutral text-xs">{text}</span>
+    <Image src={icon} alt={text} className="size-[15px] md:size-3" />
+    <span className="text-neutral text-[10px]">{text}</span>
   </li>
 )
 
@@ -38,7 +38,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ data }) => {
             <h3 className="text-secondary-content text-sm font-medium md:font-semibold">{title}</h3>
             {type && (
               <span
-                className={`h-7 w-fit rounded-md bg-[#FFFFFF1A] p-1 text-xs ${type === 'New 🔥' ? 'animate-blink text-tag' : 'text-accent'} backdrop-blur-[80px]`}>
+                className={`h-7 w-fit rounded-md bg-[#FFFFFF1A] p-1 px-3 text-[10px] ${type === 'New 🔥' ? 'animate-blink text-tag' : 'text-accent'} backdrop-blur-[80px]`}>
                 {type}
               </span>
             )}
