@@ -11,7 +11,7 @@ const firaCode = Fira_Code({ subsets: ['latin'], weight: ['300', '400', '500', '
 const title = 'Abhishek Kank | Full-Stack Developer in India'
 
 const description =
-  "Skilled full-stack web developer in India. I build responsive, user-friendly websites with React, NextJS, and NodeJS. Let's bring your vision to life. Hire me today!"
+  "Experienced Full Stack Developer specializing in Node.js, Microservices, and Scalable Web Apps. I build responsive, user-friendly websites with React, NextJS, and NodeJS. Let's bring your vision to life. Lets Connect Today !"
 
 const url = process.env.NEXT_PUBLIC_SITE_URL
 

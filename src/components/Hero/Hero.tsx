@@ -10,7 +10,7 @@ const Hero = () => {
   const ellipseRef = useRotatingAnimation()
 const role = useRoleSwitcher({
   roles: [
-    'FullStack Developer',
+    'Full Stack Developer',
     'Backend Engineer (Microservices)',
     'Cloud & DevOps Enthusiast'
   ]
