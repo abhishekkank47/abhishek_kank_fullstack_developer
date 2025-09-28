@@ -1,10 +1,11 @@
 'use client'
 import useRoleSwitcher from '@/hooks/useRoleSwitcher'
 import useRotatingAnimation from '@/hooks/useRotatingAnimation'
-import Image from 'next/image'
-import { HeroImage } from '../../utils/images'
+// import Image from 'next/image'
+import heroAnimationData from '../../utils/heroAnimationData.json'
 import Ellipse from './Ellipse'
 import Link from 'next/link'
+import Lottie from "lottie-react";
 
 const Hero = () => {
   const ellipseRef = useRotatingAnimation()
@@ -48,13 +49,18 @@ const role = useRoleSwitcher({
 
         <div className="flex min-h-[18.75rem] items-center justify-center lg:min-h-[35rem]">
           <div className="text-accent relative size-56 sm:size-60 md:size-[20rem] lg:size-[25.75rem]">
-            <Image
+            {/* <Image
               src={HeroImage}
               fill={true}
               priority={true}
               sizes="(min-width: 1024px) 25.75rem, (min-width: 768px) 20rem, (min-width: 640px) 15rem, 14rem"
               alt="John Doe - Full Stack Developer"
               className="object-contain p-7"
+            /> */}
+            <Lottie
+              animationData={heroAnimationData}
+              loop
+              autoPlay
             />
             <Ellipse
               ref={ellipseRef}
