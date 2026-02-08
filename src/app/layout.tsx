@@ -27,14 +27,14 @@ export const metadata: Metadata = {
     title,
     description,
     url,
-    siteName: 'John Doe Portfolio',
+    siteName: 'Abhishek Kank Portfolio',
     type: 'website',
   },
   twitter: {
     title,
     description,
     card: 'summary_large_image',
-    creator: '@Basit_Miyanji',
+    creator: '@kank_abhishek',
   },
 }
 
