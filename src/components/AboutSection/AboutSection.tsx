@@ -7,27 +7,13 @@ export default function AboutSection() {
       <h2 className="text-3xl text-primary-content font-bold mb-8 text-center">About</h2>
       <p className="mt-6 text-sm leading-relaxed text-primary-content md:text-lg">
         I am Abhishek Kank, a 
-        Full Stack Developer with hands-on experience building scalable web 
-        applications and microservices. Over the past years, I have designed and 
-        developed production-ready solutions including 
-        company portfolio websites, admin dashboards, e-commerce platforms, and 
-        microservice-based applications using modern stacks like 
-         Node.js, TypeScript, React, MongoDB, Redis, 
-        Docker, and AWS S3.
-      </p>
-      <p className="mt-4 text-sm leading-relaxed text-primary-content md:text-lg">
-        My work spans across end-to-end system design — from authentication, 
-        role-based access control, and API integrations to deploying containerized 
-        services with Docker and Kubernetes. I have also implemented 
-         CI/CD pipelines, centralized logging, 
-        and scalable cloud deployments, ensuring my projects are not just 
-        functional but also production-grade.
-      </p>
-      <p className="mt-4 text-sm leading-relaxed text-primary-content md:text-lg">
-        Beyond technical expertise, I bring a problem-solving mindset and 
-        accountability. My goal is to continue building reliable, scalable 
-        applications and transition into full-time trading and investing 
-        after gaining strong IT experience.
+        Full Stack developer experienced in building complete products from the ground up from planning and development to
+deployment, maintenance, and performance optimization. I’ve delivered full end-to-end systems, redesigned company
+websites, built internal admin panels, handled live production data migrations without downtime, and improved overall
+system stability and user experience. Comfortable working across the entire stack, I take ownership of features, understand
+real business needs, and deliver solutions that scale. I’m able to work independently, manage complex requirements, and
+coordinate with cross-functional teams to ship polished products on time. I focus on writing clean, maintainable code,
+optimizing performance, and ensuring smooth deployment and long-term maintainability.
       </p>
     </section>
   )

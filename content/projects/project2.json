@@ -1,9 +1,12 @@
+
+
   {
-    "priority": 2,
-    "title": "eZpedal Website – Backend Development",
-    "shortDescription": "Migrated the company website backend from Backendless to a custom Node.js + TypeScript + MongoDB stack with AWS S3 integration. Designed APIs for form submissions and image uploads, enabling smoother operations",
-    "cover": "https://res.cloudinary.com/dqt8po5ie/image/upload/v1757574885/Portfolio/ezpedal_landingPage_cenkgv.jpg",
-    "livePreview": "https://ezpedal.in",
-    "type": "Company Work",
-    "siteAge": "live"
-  }
+  "priority": 2,
+  "title": "ezpedal.in – Production Website & Backend Migration",
+  "shortDescription": "Built the official eZpedal production website end-to-end using Next.js and Node.js. Led the migration from a legacy backend to a modern, scalable architecture with MongoDB and Redis. Integrated AWS S3 for secure media storage and optimized delivery. Ensured type safety with TypeScript and deployed a stable, SEO-friendly, and high-performance web presence for the brand.",
+  "cover": "https://res.cloudinary.com/dqt8po5ie/image/upload/v1770551061/Portfolio/ezpedal_website_dvqgup.jpg",
+  "livePreview": "https://ezpedal.in",
+  "type": "Company",
+  "siteAge": "live"
+}
+

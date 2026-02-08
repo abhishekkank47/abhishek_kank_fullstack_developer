@@ -1,0 +1,9 @@
+{
+  "priority": 7,
+  "title": "cyclecare.in – Bicycle Service Booking Platform",
+  "shortDescription": "Built a freelance full-stack service booking platform enabling doorstep bicycle servicing for electric, geared, and non-geared cycles. Implemented slot-based bookings using Next.js and Google Apps Script, integrated with Google Workspace tools for operations. Deployed on Vercel with a lightweight, cost-effective backend optimized for small-business scalability.",
+  "cover": "https://res.cloudinary.com/dqt8po5ie/image/upload/v1770551308/Portfolio/logo_non_ksjywd.png",
+  "livePreview": "https://cyclecare-website.vercel.app/",
+  "type": "Freelance",
+  "siteAge": "active development"
+}

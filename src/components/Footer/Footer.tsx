@@ -49,7 +49,7 @@ const Footer = () => {
             ))}
           </ul>
           <p className="text-tertiary-content flex flex-col self-end text-right text-xs md:text-center">
-            <span>© 2025 — Designed & Developed</span>
+            <span>© {new Date().getFullYear()} — Designed & Developed</span>
             <span>by Abhishek Kank</span>
 
           </p>

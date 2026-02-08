@@ -1,0 +1,9 @@
+{
+  "priority": 6,
+  "title": "Bharat Go – E-commerce Platform (Freelance POC)",
+  "shortDescription": "Delivered a production-ready proof-of-concept e-commerce platform for a freelance client. Built end-to-end using the MERN stack, covering frontend, backend APIs, authentication, and deployment. Focused on rapid delivery, clean architecture, and extensibility for future commercial scaling.",
+  "cover": "https://res.cloudinary.com/dqt8po5ie/image/upload/v1770550835/Portfolio/Screenshot_2025-12-11_212608_tsrhqj.png",
+  "livePreview": "https://ecommerce-bharatgo.vercel.app/",
+  "type": "Freelance",
+  "siteAge": "Demo Link"
+}

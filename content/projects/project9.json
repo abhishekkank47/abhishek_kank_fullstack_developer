@@ -1,0 +1,9 @@
+{
+  "priority": 4,
+  "title": "Crypto & Indices F&O Post-Trade Analysis Software",
+  "shortDescription": "Developed a post-trade analysis platform for Crypto and Indices F&O trading. Enabled traders to track P&L, risk exposure, and performance metrics across trades. Integrated live chart APIs and automated chart screenshot storage using Cloudinary. Built with Node.js and Next.js, backed by MongoDB, focusing on analytics accuracy and long-term trade journaling.",
+  "cover": "https://res.cloudinary.com/dqt8po5ie/image/upload/v1770551585/Portfolio/Screenshot_2026-02-05_101205_gsil9p.png",
+  "livePreview": "",
+  "type": "Personal",
+  "siteAge": "active development"
+}

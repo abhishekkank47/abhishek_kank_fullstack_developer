@@ -1,5 +1,5 @@
 {
-  "priority": 6,
+  "priority": 9,
   "title": "Social Media Platform - Microservices",
   "shortDescription": "A basic social media application demonstrating microservices architecture. Includes separate services for user identity, posts, and media. Implemented Redis for caching, RabbitMQ for messaging, Docker for containerization, and MongoDB for persistence.",
   "cover": "https://res.cloudinary.com/dqt8po5ie/image/upload/v1757584539/Portfolio/social_media_project_cover_kivodq.png",
