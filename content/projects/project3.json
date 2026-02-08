@@ -1,6 +1,4 @@
-
-
-  {
+{
   "priority": 3,
   "title": "eZpedal Admin Dashboards – Web & IoT Systems",
   "shortDescription": "Developed internal admin dashboards to manage website content, monitor rides, and track IoT-enabled electric bikes in real time. Built using React and Node.js with TypeScript for reliability. Implemented Redis for fast state handling and MQTT for real-time communication with E-bike devices, enabling live telemetry, ride tracking, and operational insights.",

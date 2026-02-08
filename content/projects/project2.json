@@ -1,6 +1,4 @@
-
-
-  {
+{
   "priority": 2,
   "title": "ezpedal.in – Production Website & Backend Migration",
   "shortDescription": "Built the official eZpedal production website end-to-end using Next.js and Node.js. Led the migration from a legacy backend to a modern, scalable architecture with MongoDB and Redis. Integrated AWS S3 for secure media storage and optimized delivery. Ensured type safety with TypeScript and deployed a stable, SEO-friendly, and high-performance web presence for the brand.",
@@ -9,4 +7,3 @@
   "type": "Company",
   "siteAge": "live"
 }
-
