@@ -13,7 +13,7 @@ const title = 'Abhishek Kank | Full-Stack Developer in India'
 const description =
   "Experienced Full Stack Developer specializing in Node.js, Microservices, and Scalable Web Apps. I build responsive, user-friendly websites with React, NextJS, and NodeJS. Let's bring your vision to life. Lets Connect Today !"
 
-const url = process.env.NEXT_PUBLIC_SITE_URL ?? "https://example.com";
+const url = process.env.NEXT_PUBLIC_SITE_URL ?? "https://abhishek-kank-fullstack-developer.vercel.app";
 
 export const metadata: Metadata = {
   title,
